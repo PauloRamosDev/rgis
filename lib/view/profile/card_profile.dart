@@ -49,6 +49,7 @@ class CardProfile extends StatelessWidget {
               child: Center(
                 child: Text(
                   this.label,
+                  textAlign: TextAlign.center,
                   maxLines: 2,
                   style: TextStyle(color: Colors.white, fontSize: 15),
                 ),
